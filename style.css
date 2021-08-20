@@ -94,3 +94,9 @@ table {
 .head1, .head2, .second-row td{
     background-color: rgb(90, 96, 145);
 }
+
+@media screen and (max-width:400px){
+    section{
+        width:100%;
+    }
+}
