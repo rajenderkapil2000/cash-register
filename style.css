@@ -1,0 +1,17 @@
+
+section{
+    width:800px;
+   margin:auto;
+}
+#container h1{
+    text-align: center;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    margin:1rem 0;
+}
+#container input, #check-button{
+    margin-bottom: 1rem;
+    width:70%;
+}
