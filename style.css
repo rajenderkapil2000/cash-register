@@ -1,9 +1,11 @@
 * {
     margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 
 section {
-    width: 80%;
+    width: 100%;
     margin: auto;
     background-color: rgb(35, 40, 77);
     padding: 2rem 1rem;
@@ -21,6 +23,7 @@ section h1,
 }
 
 #sec-p {
+    padding: 0 2rem;
     font-size: 1.1rem;
 }
 
@@ -33,7 +36,6 @@ section h1,
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 70%;
     margin: auto;
 }
 
@@ -42,6 +44,8 @@ section h1,
 }
 
 #container input {
+    width:50%;
+    margin:auto;
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     border: none;
@@ -64,7 +68,7 @@ section h1,
 
 /* table */
 table caption {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -77,8 +81,9 @@ th {
 
 table {
     margin: auto;
-    width: 60%;
+    width: 50%;
     border-collapse: collapse;
+    margin-bottom:3rem;
 }
 
 .no-of-notes{
