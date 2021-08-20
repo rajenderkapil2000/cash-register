@@ -13,7 +13,7 @@
 <body>
 <section>
     <h1>Cash Register Manager</h1>
-    <p>Enter the bill amount and cash given by the customer and know minimum nimber of notes to return</p>
+    <p id="sec-p">Enter the bill amount and cash given by the customer and know minimum nimber of notes to return</p>
 
 <div id="container">
     <label for="bill-amount">Bill Amount:</label>
@@ -28,12 +28,12 @@
 
 </div>
 
-<table class="change-table">
+<table>
 
 <caption>Return Change:</caption>
 
-<tr>
-    <th>No. of Notes</th>
+<tr class="first-row">
+    <th class="head1">No. of Notes</th>
 <td class="no-of-notes"></td>
 <td class="no-of-notes"></td>
 <td class="no-of-notes"></td>
@@ -43,8 +43,8 @@
 <td class="no-of-notes"></td>
 </tr>
 
-<tr>
-    <th>Note</th>
+<tr class="second-row">
+    <th class="head2">Note</th>
     <td>2000</td>
     <td>500</td>
     <td>100</td>
