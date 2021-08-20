@@ -17,7 +17,7 @@ checkButton.addEventListener("click", function clickhandler() {
             showMessage("cash given should be equal or greater than bill amount");
         }
     } else {
-        showMessage("bill amount should be graeter than 0");
+        showMessage("bill amount should be greater than 0");
     }
 
 });
