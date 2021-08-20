@@ -1,17 +1,91 @@
+* {
+    margin: 0px;
+}
 
-section{
-    width:800px;
-   margin:auto;
+section {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(35, 40, 77);
+    padding: 2rem 1rem;
+    color: white;
 }
-#container h1{
+
+section h1 {
+    font-size: 2rem;
+}
+
+section h1,
+#sec-p {
     text-align: center;
+    margin: 2rem 0rem;
 }
-#container{
-    display:flex;
+
+#sec-p {
+    font-size: 1.1rem;
+}
+
+#error-msg {
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+#container {
+    text-align: center;
+    display: flex;
     flex-direction: column;
-    margin:1rem 0;
+    width: 70%;
+    margin: auto;
 }
-#container input, #check-button{
+
+#container label {
+    font-size: 1.2rem;
+}
+
+#container input {
     margin-bottom: 1rem;
-    width:70%;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+#container button {
+    padding: 0.5rem 1rem;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+#container button:hover {
+    font-weight: bold;
+}
+
+/* table */
+table caption {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+    padding: 0.4rem;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.no-of-notes{
+    background-color: white;
+    color:rgb(35, 40, 77);
+    font-weight: bold;
+}
+.head1, .head2, .second-row td{
+    background-color: rgb(90, 96, 145);
 }
