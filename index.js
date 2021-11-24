@@ -9,18 +9,16 @@ const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function clickhandler() {
     hideMessage();
-        if (billAmount.value > 0) {
-            if (cashGiven.value > billAmount.value) {
-                const amountToBeReturned = cashGiven.value - billAmount.value;
-                calculateChange(amountToBeReturned);
-            } else{
-                showMessage("cash given should be equal or greater than bill amount");
-            }
+    if (billAmount.value > 0) {
+        if (cashGiven.value > billAmount.value) {
+            const amountToBeReturned = cashGiven.value - billAmount.value;
+            calculateChange(amountToBeReturned);
         } else {
-            showMessage("bill amount should be greater than 0");
+            showMessage("cash given should be equal or greater than bill amount");
         }
-
-
+    } else {
+        showMessage("bill amount should be greater than 0");
+    }
 
 });
 
